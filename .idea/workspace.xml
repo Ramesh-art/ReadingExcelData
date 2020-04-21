@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c424390a-69b2-4780-baea-2c4dc8e7af1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OMS_UseCase_GoldenVideosRegression_Testing_Report_Min_R9.3.4.0-M_15Nov_session2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OMS_UseCase_GoldenVideosRegression_Testing_Report_Min_R9.3.4.0-M_15Nov_session2.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadingOfficeExcelData.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadingOfficeExcelData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLdatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQLdatabase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingOfficeExcelData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLdatabase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usecasemodel.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,16 +154,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ReadingOfficeExcelData.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ReadingOfficeExcelData.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../PythonPracticingPrograms/DBconnection.py</url>
           <line>3</line>
