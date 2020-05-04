@@ -1,5 +1,4 @@
 import MySQLdb
-
 class MySQLUtils:
     # def __init__(self, user='root', password='Ilovmom@1', host='localhost', database='database1'):
     #     # self.connection = MySQLdb.connect(user=user, password=password, host=host, database=database)
@@ -18,7 +17,8 @@ class MySQLUtils:
                                                     datfile,    
                                                     falsetriggers,     
                                                     result)
-                                                    VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+                                                    VALUES(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)"""
+                                                    # VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
             recordTup = (row.TestCaseId,
                          row.Module,
                          row.CarId,
@@ -44,3 +44,15 @@ class MySQLUtils:
         finally:
             cursor.close()
             connection.close()
+
+    def get_version_info(self,user='root', password='Ilovmom@1', host='localhost', database='database1'):
+        try:
+            connection = MySQLdb.connect(user=user, password=password, host=host, database=database)
+            query='SELECT VersionNo FROM database1.oms_uc6_search_light;'
+            cursor = connection.cursor()
+            cursor.execute(query)
+            version_number=cursor.fetchone()
+            return version_number
+        except Exception as e:
+            print(e)
+            return None
